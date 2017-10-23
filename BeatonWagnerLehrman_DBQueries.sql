@@ -29,10 +29,10 @@ Full Outer Join Orders as O
 on O.customerID = C.customerID;
 
 /*Query that uses subquery*/
-Select ProductName, CostOfProduction
+Select ProductName, COGS
 From product
-where CostOfProduction >
-	(Select Avg(CostofProduction)
+where COGS >
+	(Select Avg(COGS)
 	from Product)
-	Order by CostOfProduction;
+	Order by COGS;
 
