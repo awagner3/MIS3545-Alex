@@ -66,7 +66,7 @@ ALTER TABLE Orders ADD CONSTRAINT FK_Orders_ProductID
 FOREIGN KEY (ProductID) REFERENCES Product(ProductID);
 GO
 
-  INSERT INTO Orders (OrderID, CustomerID, EmployeeID, ProductID ,OrderQuantity, SalesAmount	) VALUES 
+ INSERT INTO Orders (OrderID, CustomerID, EmployeeID, ProductID, OrderQuantity, SalesAmount	) VALUES 
 (1,12,6,10,2,2.00),
 (2,10,5,7,2,14.00),
 (3,6,6,2,3,7.50),
@@ -93,6 +93,23 @@ GO
 (24,13,4,13,4,28.00),
 (25,11,5,1,4,8);
 
+ INSERT INTO Employee (EmployeeID, Title,	FirstName, LastName, Salary, Birthday, PhoneNumber, Email, Address,	ZipCode, City, State, Hours/Week) VALUES
+ (1, 'Head Baker',	'Evan',	'Lehrman',100000,10/22/1995,8715728670,'elehrman@beaverbreadcompany.com	11 Babson College Drive	02481	Wellesley Hills	MA	40),
+ (),
+ (),
+ (),
+ (),
+ (),
+ (),
+ (),
+ (),
+ (),
+ (),
+ (),
+ (),
+ (),
+ (),
+ (),
 SELECT * FROM Orders;
 
 
