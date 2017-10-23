@@ -94,20 +94,20 @@ GO
 (25,11,5,1,4,8);
 
  INSERT INTO Employee (EmployeeID, Title,	FirstName, LastName, Salary, Birthday, PhoneNumber, Email, Address,	ZipCode, City, State, Hours/Week) VALUES
- (1, 'Head Baker','Evan','Lehrman',100000,10/22/1995,8715728670,'elehrman@beaverbreadcompany.com',	'11 Babson College Drive',	'02481',	'Wellesley Hills','MA',40),
- (2,'CFO','Alex', 'Wagner',80000,3/29/1996,9289735020,	'awagner@beaverbreadcompany.com',	'12 Babson College Drive', '02481',	'Wellesley Hills','MA',40),
- (3,'Business Development','Ryan','Beaton',80000,7/8/1996,7511912313,	'rbeaton@beaverbreadcompany.com',	'13 Babson College Drive',	'02481',	'Wellesley Hills',	'MA',40),
- (4,'Salesperson','Gurp',	'Singh',75000,1/28/1996,'3299113758',	'gsingh@beaverbreadcompany.com',	'262 Iroquois Dr.',	'02611',	'Boston',	'MA',40),
- (5,'Salesperson','Blake','Fontaine',75000,12/29/2001,2358674376,	'bfontaine@beaverbreadcompany.com',	'810 Williams Road',	'02835',	'Newton',	'MA',40),
- (6,'Salesperson','Samson','Seagon',75000,4/7/1987,5141292616,	'sseagon@beaverbreadcompany.com',	'246 Pennsylvania Ave.',	'02633',	'Braintree',	'MA',40),
- (7,'Baker','Patty','Goodwyn',40000,4/4/2003,3942750546,	'pgoodwyn@beaverbreadcompany.com',	'7626 Golden Star Street',	'02845',	'Boston',	'MA',40),
- (8,'Baker','Sheamus', 'O'Toole',40000,1/15/1993,6456519990,	'sotoole@beaverbreadcompany.com',	'810 Williams Road',	'02341',	'Boston',	'MA',40),
- (9,'Baker','Dirk', 'Nowitsky',20000,12/20/1993,5081357237,	'dnowitsky@beaverbreadcompany.com',	'20 Albany Dr.',	'02416',	'West Newton',	'MA',20),
- (10,'Baker','Michael','Jordan',20000,8/30/1999,3298248436,	'mjordan@beaverbreadcompany.com',	'7574 Main Ave.',	'02544',	'Wapole',	'MA'	,40),
- (11,'Baker','Tom','Brady',20000,4/6/1988,3254123812,	'tbready@beaverbreadcompany.com','7121 Henry Dr.',	'02752',	'Cambridge',	'MA',20),
- (12,'Baker','Rob',	'Gronkowski',20000,10/18/1965,9562540493,	'rgronkowski@beaverbreadcompany.com',	'896 Pumpkin Hill Road',	'03642',	'Worchester',	'MA',20),
- (13,'Packager','Trisha','Takinawa',20000,10/21/1993,2337047120,	'ttakinawa@beaverbreadcompany.com',	'9099 North Squaw Creek St.',	'02487',	'Wellesley',	'MA',40),
- (14,'Secretary','Willy','Wonka',25000,10/24/1985,3040815772,	'wwonka@beaverbreadcompany.com',	'43 Bedford Dr.',	'02489','Needham', 'MA',40),
+ (1, 'Head Baker','Evan','Lehrman',100000,10/22/1995,8715728670,'elehrman@beaverbreadcompany.com','11 Babson College Drive',	'02481',	'Wellesley Hills','MA',40),
+ (2,'CFO','Alex', 'Wagner',80000,3/29/1996,9289735020,'awagner@beaverbreadcompany.com','12 Babson College Drive', '02481',	'Wellesley Hills','MA',40),
+ (3,'Business Development','Ryan','Beaton',80000,7/8/1996,7511912313,'rbeaton@beaverbreadcompany.com','13 Babson College Drive',	'02481',	'Wellesley Hills',	'MA',40),
+ (4,'Salesperson','Gurp',	'Singh',75000,1/28/1996,'3299113758','gsingh@beaverbreadcompany.com','262 Iroquois Dr.',	'02611',	'Boston',	'MA',40),
+ (5,'Salesperson','Blake','Fontaine',75000,12/29/2001,2358674376,'bfontaine@beaverbreadcompany.com','810 Williams Road',	'02835',	'Newton',	'MA',40),
+ (6,'Salesperson','Samson','Seagon',75000,4/7/1987,5141292616,'sseagon@beaverbreadcompany.com','246 Pennsylvania Ave.',	'02633',	'Braintree',	'MA',40),
+ (7,'Baker','Patty','Goodwyn',40000,4/4/2003,3942750546,'pgoodwyn@beaverbreadcompany.com','7626 Golden Star Street',	'02845',	'Boston',	'MA',40),
+ (8,'Baker','Sheamus', 'O'Toole',40000,1/15/1993,6456519990,'sotoole@beaverbreadcompany.com','810 Williams Road',	'02341',	'Boston',	'MA',40),
+ (9,'Baker','Dirk', 'Nowitsky',20000,12/20/1993,5081357237,'dnowitsky@beaverbreadcompany.com','20 Albany Dr.',	'02416',	'West Newton',	'MA',20),
+ (10,'Baker','Michael','Jordan',20000,8/30/1999,3298248436,'mjordan@beaverbreadcompany.com','7574 Main Ave.',	'02544',	'Wapole',	'MA'	,40),
+ (11,'Baker','Tom','Brady',20000,4/6/1988,3254123812,'tbready@beaverbreadcompany.com','7121 Henry Dr.','02752','Cambridge',	'MA',20),
+ (12,'Baker','Rob',	'Gronkowski',20000,10/18/1965,9562540493,'rgronkowski@beaverbreadcompany.com',	'896 Pumpkin Hill Road',	'03642',	'Worchester',	'MA',20),
+ (13,'Packager','Trisha','Takinawa',20000,10/21/1993,2337047120,'ttakinawa@beaverbreadcompany.com',	'9099 North Squaw Creek St.',	'02487',	'Wellesley',	'MA',40),
+ (14,'Secretary','Willy','Wonka',25000,10/24/1985,3040815772,'wwonka@beaverbreadcompany.com',	'43 Bedford Dr.',	'02489','Needham', 'MA',40);
 
 SELECT * FROM Orders;
 
