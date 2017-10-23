@@ -29,7 +29,6 @@ CREATE TABLE Customer(
   PhoneNumber int NOT NULL,
   Email varchar(50) NOT NULL,
   Address1 varchar(50) NOT NULL,
-  Address2 varchar(50) NOT NULL,
   City varchar(50) NOT NULL,
   StateName varchar(50) NOT NULL,
   ZipCode int NOT NULL,
@@ -141,7 +140,7 @@ INSERT INTO Product( ProductID,ProductName,ProductDescription,Category,COGS,Sale
 	(14,'Coffee Cake','Classic coffee cake','Cake',2.75,8,1,0,1,1,0),
 	(15,'Cheesecake','Classic cheese cake','Cake',3.4,10,0,0,1,1,0);
 
-	 INSERT INTO Employee (EmployeeID, Title,	FirstName, LastName, Salary, Birthday, PhoneNumber, Email, Address,	ZipCode, City, State, Hours/Week) VALUES
+	 INSERT INTO Employee (EmployeeID, Title,	FirstName, LastName, Salary, Birthday, PhoneNumber, Email, Address1,	ZipCode, City, State, Hours/Week) VALUES
  (1, 'Head Baker','Evan','Lehrman',100000,10/22/1995,8715728670,'elehrman@beaverbreadcompany.com',	'11 Babson College Drive',	'02481',	'Wellesley Hills','MA',40),
  (2,'CFO','Alex', 'Wagner',80000,3/29/1996,9289735020,	'awagner@beaverbreadcompany.com',	'12 Babson College Drive', '02481',	'Wellesley Hills','MA',40),
  (3,'Business Development','Ryan','Beaton',80000,7/8/1996,7511912313,	'rbeaton@beaverbreadcompany.com',	'13 Babson College Drive',	'02481',	'Wellesley Hills',	'MA',40),
