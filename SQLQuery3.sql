@@ -55,6 +55,16 @@ CREATE TABLE Customer(
   ProductID int NOT NULL,
   OrderQuantity int NOT NULL,
   SalesAmount int NOT NULL);
+  
+  ALTER TABLE Orders ADD CONSTRAINT FK_Orders_CustomerID 
+FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID);
+GO
+ALTER TABLE Orders ADD CONSTRAINT FK_Orders_EmployeeID 
+FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID);
+GO
+ALTER TABLE Orders ADD CONSTRAINT FK_Orders_ProductID 
+FOREIGN KEY (ProductID) REFERENCES Product(ProductID);
+GO
 
   INSERT INTO Orders (OrderID, CustomerID, EmployeeID, ProductID ,OrderQuantity, SalesAmount	) VALUES 
 (1,12,6,10,2,2.00),
